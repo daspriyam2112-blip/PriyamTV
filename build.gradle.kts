@@ -1,10 +1,4 @@
 buildscript {
-    repositories {
-        google()
-        mavenCentral()
-        maven("https://jitpack.io")
-    }
-
     dependencies {
         classpath("com.android.tools.build:gradle:8.2.2")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.23")
@@ -14,18 +8,6 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        maven("https://jitpack.io")
-    }
-}
-
 plugins {
     id("com.google.devtools.ksp") version "1.9.22-1.0.17" apply false
 }
-
-//tasks.register<Delete>("clean") {
-//    delete(rootProject.layout.buildDirectory)
-//}
