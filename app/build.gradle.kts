@@ -56,7 +56,7 @@ android {
     buildToolsVersion = "34.0.0"
 
     defaultConfig {
-        applicationId = "com.lagradost.cloudstream3"
+        applicationId = "com.priyamtv.app"
         minSdk = 21
         targetSdk = 33 /* Android 14 is Fu*ked
         ^ https://developer.android.com/about/versions/14/behavior-changes-14#safer-dynamic-code-loading*/
@@ -145,7 +145,7 @@ android {
         buildConfig = true
     }
 
-    namespace = "com.lagradost.cloudstream3"
+    namespace = "com.priyamtv.app"
 }
 
 repositories {
