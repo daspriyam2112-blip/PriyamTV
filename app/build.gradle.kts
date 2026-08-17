@@ -148,10 +148,6 @@ android {
     namespace = "com.priyamtv.app"
 }
 
-repositories {
-    maven("https://jitpack.io")
-}
-
 dependencies {
     // Testing
     testImplementation("junit:junit:4.13.2")
