@@ -63,7 +63,7 @@
                 android:nextFocusLeft="@id/home_search"
                 android:padding="10dp"
                 android:src="@drawable/ic_outline_account_circle_24" />
-        </LinearLayout>
+        </LinearLayout> 
         <!--
                         <TextView
                             android:visibility="gone"
